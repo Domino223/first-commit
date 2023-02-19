@@ -1,0 +1,993 @@
+/* Break point at 1188px viewport width */
+
+@media only screen and (max-width: 74.25em) {
+  .header {
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        #c0c0c0e6,
+        rgba(192, 192, 192, 0.9)
+      ),
+      url(../img/dumbbellsbackground.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    padding: 0 0.8rem;
+  }
+  .header-link {
+    display: block;
+    width: 12rem;
+    align-self: baseline;
+  }
+  .header-image {
+    display: block;
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+  .text-1 {
+    position: absolute;
+    top: 5px;
+    left: 38%;
+    transform: rotate(-15deg);
+  }
+  .text-2 {
+    position: absolute;
+    top: 4px;
+    right: 38%;
+    transform: rotate(15deg);
+  }
+  .header-navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-left: auto;
+
+    list-style: none;
+    padding: 0 1rem;
+  }
+  .navigation-item {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    border: 3px solid #333;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    background-color: #f1d116;
+    box-shadow: 4px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 0.8rem 1.1rem;
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    padding: 0.3rem 0.9rem;
+  }
+  .icon-itself {
+    display: inline-block;
+    font-size: 2.3rem;
+    color: #00008b;
+    margin-bottom: 1rem;
+  }
+  .side-nav-elements {
+    padding: 0 0.3rem;
+  }
+  .side-nav-button {
+    display: inline-block;
+    color: #00008b;
+    font-size: 0.8rem;
+    font-weight: 300;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+    padding: 0.4rem 0.4rem;
+    margin-bottom: 1rem;
+    margin-right: 0.4rem;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  }
+  /* TEXT SECTION */
+  .text-container {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(192, 192, 192, 0.473),
+        rgba(192, 192, 192, 0.473)
+      ),
+      url(../img/dumbbellsbackground.jpg);
+    background-size: cover;
+    background-position: left;
+    border-bottom: 1px solid #333;
+    margin: 0 auto;
+    max-width: 1250px;
+    border-radius: 50px;
+
+    text-align: justify;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.35);
+  }
+  .text-content {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    text-shadow: 6px 6px 7px rgba(255, 255, 255, 0.55);
+    transition: all 0.7s;
+  }
+
+  /* DUMBBELLS */
+  .box-header-text {
+    display: inline-block;
+    padding: 0.5rem 0.1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.3);
+  }
+  .dumbbell-text-content {
+    display: block;
+    color: teal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(141, 141, 141, 0.24); */
+    padding: 0.5rem 1.2rem;
+    max-height: 85px;
+    margin-bottom: 0.9rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: justify;
+  }
+  .product-traits {
+    padding-top: 1rem;
+    width: 100%;
+    list-style: none;
+  }
+  .product-trait {
+    width: 100%;
+    /* color: #1f4ad6; */
+    color: #333;
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    font-weight: 400;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #333;
+  }
+  /* BARBELLS */
+  .text-box-header {
+    display: block;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    background-color: rgba(167, 167, 167, 0.418);
+
+    text-align: center;
+  }
+
+  .text-box {
+    width: 80%;
+    max-height: 415px;
+    justify-self: end;
+    align-self: flex-start;
+    border-top: 2px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+  }
+  .text-box-content {
+    display: block;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 1rem 0.8rem;
+    text-align: justify;
+    background-color: white;
+  }
+  .text-box-content-2 {
+    display: block;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 1rem 0.8rem;
+    text-align: justify;
+    background-color: white;
+  }
+  .image-box {
+    display: block;
+    align-self: start;
+    border-top: 3px solid #333;
+    width: 80%;
+    height: 100%;
+  }
+  .btn-barbell:link,
+  .btn-barbell:visited {
+    color: #333;
+    background-color: #f1f0f0;
+    border: 2px solid #333;
+    padding: 0.1rem 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  }
+  .special-cta {
+    display: block;
+    width: 100%;
+    align-self: center;
+    padding: 0.2rem 0.6rem;
+    background-color: rgba(192, 192, 192, 0.24);
+    text-align: center;
+  }
+
+  .query-class-image {
+    width: 80%;
+    height: 100%;
+    justify-self: end;
+  }
+  .query-class-text {
+    justify-self: start;
+  }
+  /* Plates */
+  .plates-header {
+    display: block;
+    font-size: 1rem;
+    background-color: #55c555;
+    width: 100%;
+    text-align: center;
+    padding: 0.4rem 0.9rem;
+    color: #fff;
+  }
+  .special-cta-2 {
+    display: block;
+    width: 100%;
+
+    justify-self: end;
+    align-self: end;
+    padding: 0.5rem 0.6rem;
+    background-color: #daa520;
+    text-align: center;
+  }
+  .btn-plates:link,
+  .btn-plates:visited {
+    color: #fff;
+    background-color: #40c057;
+    border: 2px solid #333;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  }
+  .plate-box {
+    display: flex;
+    width: 95%;
+    min-height: 305px;
+    max-height: 355px;
+    background-color: #111;
+
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.38);
+  }
+  .plates-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125%;
+    height: 320px;
+  }
+  .plate-box:nth-child(2) .plates-text-inner {
+    height: 285px;
+    padding-bottom: 1.3rem;
+  }
+
+  .plates-text-inner {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    height: 320px;
+
+    text-align: justify;
+    padding: 1.5rem 1rem;
+    padding-top: 0.7rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.3;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.45);
+  }
+  /* MACHINES */
+  .image:hover {
+    transform: scale(1.5);
+    z-index: 100;
+  }
+  /* SUPPLEMENTS */
+  .supplements {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 4.2rem;
+    background-image: url(../img/suppl.jpg), url(../img/suppl4.jpg);
+    z-index: 40;
+    padding-bottom: 2rem;
+  }
+  .content-supplements {
+    text-align: center;
+    width: 80%;
+
+    position: relative;
+    left: 10%;
+    background-image: linear-gradient(to right, #c0eb75, #74b816);
+    margin-right: 7rem;
+    margin-top: 4rem;
+    padding: 3.9rem 18.5rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    opacity: 0.9;
+  }
+  .content-supplements-text {
+    color: #e9ecef;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .supplement-image-1 {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    left: 0.5%;
+    top: 15%;
+  }
+  .supplement-image-2 {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right: 0.5%;
+    top: 10%;
+  }
+  /* FOOTER */
+  .footer {
+    font-size: 90%;
+  }
+  .address {
+    color: #fff;
+    padding: 1rem 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+    align-self: center;
+  }
+}
+/* Break point at 990px viewport width */
+@media only screen and (max-width: 61.8em) {
+  /* GLOBAL */
+  html {
+    font-size: 80%;
+  }
+  /* HEADER */
+  .header {
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        #c0c0c0e6,
+        rgba(192, 192, 192, 0.9)
+      ),
+      url(../img/dumbbellsbackground.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    padding: 0 0.6rem;
+  }
+  .navigation-item {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+    border: 2px solid #333;
+    transition: all 0.3s;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background-color: #f1d116;
+    box-shadow: 4px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 0.8rem 0.5rem;
+  }
+  .text-1 {
+    position: absolute;
+    top: 5px;
+    left: 37%;
+    transform: rotate(-15deg);
+  }
+  .text-2 {
+    position: absolute;
+    top: 4px;
+    right: 37%;
+    transform: rotate(15deg);
+  }
+  .navigation-item {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+    border: 2px solid #333;
+    transition: all 0.3s;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background-color: #f1d116;
+    box-shadow: 4px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 0.7rem 0.9rem;
+  }
+  .side-nav-button {
+    display: inline-block;
+    color: #00008b;
+    font-size: 0.7rem;
+    font-weight: 300;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+    padding: 0.4rem 0.3rem;
+    margin-bottom: 1rem;
+    margin-right: 0.3rem;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  }
+  /* TEXT SECTION */
+  .text-container {
+    max-width: 700px;
+  }
+  .text-content {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    text-shadow: 6px 6px 7px rgba(255, 255, 255, 0.55);
+    transition: all 0.7s;
+  }
+  .up {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  .down {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  /* DUMBBELLS */
+  .box-header-text {
+    display: inline-block;
+    padding: 0.5rem 0.1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.3);
+  }
+  .dumbbell-text-content {
+    display: block;
+    color: teal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(141, 141, 141, 0.24); */
+    padding: 0.2rem 1.5rem;
+    margin-top: 0.6rem;
+    max-height: 38px;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: justify;
+  }
+  .product-traits {
+    padding-top: 0.8rem;
+    width: 100%;
+    list-style: none;
+  }
+  .product-trait {
+    width: 100%;
+    /* color: #1f4ad6; */
+    color: #333;
+    font-size: 0.7rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    font-weight: 300;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #333;
+  }
+  /* BARBELLS */
+  .text-box {
+    width: 75%;
+    max-height: 345px;
+    justify-self: end;
+    align-self: flex-start;
+    border-top: 2px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+  }
+  .text-box-content {
+    display: block;
+
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0.7rem 0.8rem;
+    text-align: justify;
+    background-color: white;
+  }
+  .text-box-content-2 {
+    display: block;
+
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0.7rem 0.8rem;
+    text-align: justify;
+    background-color: white;
+  }
+  .image-box {
+    display: block;
+    align-self: start;
+    border-top: 3px solid #333;
+    width: 75%;
+    height: 100%;
+  }
+  .query-class-text {
+    justify-self: start;
+  }
+  /* PLATES */
+  .plate-image {
+    display: block;
+    width: 80%;
+  }
+  .plate-box {
+    display: flex;
+    width: 95%;
+    min-height: 245px;
+    max-height: 280px;
+
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.38);
+  }
+
+  .plates-header {
+    display: block;
+    font-size: 0.9rem;
+    background-color: #55c555;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: #fff;
+  }
+  .plates-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120%;
+    max-height: 275px;
+  }
+
+  .plates-text-inner {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffd;
+    height: 235px;
+    text-align: justify;
+    padding: 0.8rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+
+    line-height: 1.3;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.45);
+  }
+  .button-cta {
+    justify-self: end;
+  }
+  .special-cta-2 {
+    display: block;
+    width: 100%;
+
+    justify-self: end;
+    align-self: center;
+    padding: 0.5rem 0.6rem;
+    background-color: #daa520;
+    text-align: center;
+  }
+  /* MACHINES */
+  .image-1 {
+    position: absolute;
+    top: -7%;
+    left: -3%;
+  }
+  .image-2 {
+    position: absolute;
+    bottom: -13%;
+    right: 33%;
+    z-index: 1;
+  }
+  .image-4 {
+    width: 25%;
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    z-index: 50;
+  }
+  /* FOOTER */
+  .form-div-header {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 1.5rem;
+  }
+}
+/* Break point at 740px viewport width */
+@media only screen and (max-width: 46.25em) {
+  body {
+    overflow-x: hidden;
+  }
+  /* HEADER */
+  .header {
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        #c0c0c0e6,
+        rgba(192, 192, 192, 0.9)
+      ),
+      url(../img/dumbbellsbackground.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    padding: 0 0.6rem;
+  }
+
+  .header-navigation-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 45%;
+    list-style: none;
+    padding: 0 4.5rem;
+  }
+  .navigation-item {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+    border: 2px solid #333;
+    transition: all 0.3s;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    background-color: #f1d116;
+    box-shadow: 4px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 0.3rem 0.3rem;
+  }
+  .header-link {
+    display: block;
+    width: 13rem;
+    align-self: baseline;
+  }
+  .header-image {
+    display: block;
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+  .text-1 {
+    position: absolute;
+    top: 5px;
+    left: 30%;
+    transform: rotate(0);
+  }
+  .text-2 {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    transform: rotate(0);
+  }
+  .partial {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 14px 14px 15px rgba(0, 0, 0, 0.6);
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    padding: 0.3rem 0.9rem;
+  }
+  /* TEXT SECTION */
+  .text-container {
+    max-width: 700px;
+  }
+  .text-content {
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    text-shadow: 6px 6px 7px rgba(255, 255, 255, 0.55);
+    transition: all 0.7s;
+  }
+  .up {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  .down {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  /* DUMBBELLS */
+  .grid-1-col {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .box-header-text {
+    display: inline-block;
+    padding: 0.5rem 0.1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.3);
+  }
+
+  .dumbbells-content {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    margin: 0 auto;
+  }
+  .dumbbell-text-content {
+    display: block;
+    color: teal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(141, 141, 141, 0.24); */
+    padding: 1rem 1.5rem;
+    margin-top: 0.7rem;
+    max-height: 60px;
+    margin-bottom: 1.2rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: justify;
+  }
+  .product-trait {
+    width: 100%;
+    /* color: #1f4ad6; */
+    color: #333;
+    font-size: 0.7rem;
+    text-align: left;
+    padding-left: 0.3rem;
+    font-weight: 300;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #333;
+  }
+  .plastic-dumbbells-bottom-image {
+    display: none;
+  }
+  /* BARBELLS */
+  .text-box {
+    width: 93%;
+    height: 100%;
+    max-height: 300px;
+    justify-self: end;
+    align-self: flex-start;
+    border-top: 2px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+  }
+  .text-box-content {
+    display: block;
+
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 0.7rem 0.8rem;
+    text-align: justify;
+    background-color: white;
+  }
+  .text-box-content-2 {
+    display: block;
+
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 0.7rem 0.8rem;
+    text-align: justify;
+    background-color: white;
+  }
+  .image-box {
+    display: block;
+    align-self: start;
+    border-top: 3px solid #333;
+    width: 93%;
+    height: 100%;
+  }
+  .query-class-text {
+    justify-self: start;
+  }
+  /* PLATES */
+  .plate-box {
+    display: flex;
+    width: 70%;
+    min-height: 245px;
+    max-height: 277px;
+    margin: 0 auto;
+
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.38);
+  }
+  .plates-text-inner {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffd;
+    height: 235px;
+    text-align: justify;
+    padding: 0.8rem 1rem;
+    padding-top: 5rem;
+    padding-bottom: 0.3rem;
+
+    line-height: 1.3;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.45);
+  }
+  /* MACHINES */
+  .text-div {
+    position: relative;
+    display: block;
+    background-color: rgba(60, 160, 60, 0.548);
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+  .text-div-content {
+    margin-top: 0.8rem;
+    position: absolute;
+    display: inline-block;
+    text-align: justify;
+
+    top: 15%;
+    left: 25%;
+    z-index: 100;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 2rem;
+    transition: all 0.4s;
+  }
+  .image-3 {
+    position: absolute;
+    top: 3%;
+    right: -12%;
+  }
+  .text-div-content:hover {
+    transform: scale(1);
+    background-color: #333;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+    z-index: 444;
+  }
+  /* SUPPLEMENTS */
+  .content-supplements {
+    text-align: center;
+    width: 80%;
+    height: 90%;
+    top: -3%;
+    left: 1%;
+    margin: 1rem auto;
+    margin-bottom: 4rem;
+    position: relative;
+
+    background-image: linear-gradient(to right, #c0eb75, #74b816);
+
+    padding: 1rem 10rem;
+    padding-top: 7rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    opacity: 0.9;
+  }
+  .content-supplements-text {
+    color: #e9ecef;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .btn-supple:link,
+  .btn-supple:visited {
+    transform: translate(0, -75%);
+
+    padding-top: 0.5rem;
+    color: #1c692b;
+    background-color: #c556c5;
+    border: 2px solid #333;
+    padding: 0.3rem 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  }
+  .supplement-image-1 {
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    left: 0.5%;
+    top: 15%;
+  }
+  .supplement-image-2 {
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    right: 0.5%;
+    top: 10%;
+  }
+  /* FOOTER */
+  .footer * {
+    font-size: 0.9rem;
+  }
+  .footer-logo {
+    display: block;
+    margin-right: -2rem;
+    margin-bottom: 0.5rem;
+
+    width: 50%;
+  }
+  .logo {
+    display: block;
+    height: 50px;
+
+    width: 50%;
+  }
+}

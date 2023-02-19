@@ -1,0 +1,166 @@
+/* First break point-1265px */
+@media only screen and (max-width: 79em) {
+  .header {
+    gap: 2.7rem;
+    padding: 0 3rem;
+    padding-top: 1.7rem;
+  }
+  .main-content {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/pexels-north-1407322.jpg);
+    background-size: cover;
+
+    height: 145vh;
+  }
+
+  .main-heading {
+    padding: 12rem 20rem 2rem;
+  }
+  .text-content {
+    font-size: 1rem;
+  }
+}
+
+/* Second break point-1072px */
+@media only screen and (max-width: 67em) {
+  html {
+    font-size: 50%;
+  }
+  .main-content {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/pexels-north-1407322.jpg);
+    background-size: cover;
+
+    height: 125vh;
+  }
+}
+/* Third break point-865px */
+@media only screen and (max-width: 54em) {
+  .header {
+    justify-content: space-evenly;
+    gap: 5rem;
+  }
+
+  .header input {
+    display: none;
+  }
+  .main-content {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/pexels-north-1407322.jpg);
+    background-size: cover;
+
+    height: 105vh;
+  }
+
+  .main-heading {
+    font-size: 2.5rem;
+    padding: 12rem 12rem 2rem;
+  }
+
+  .card img {
+    width: 85%;
+  }
+
+  .card-text-content {
+    width: 85%;
+  }
+
+  .query-gap {
+    gap: 2rem;
+  }
+
+  .text-content {
+    font-size: 0.8rem;
+    padding: 1.5rem 0.4rem;
+  }
+  .brand-name {
+    font-size: 1.1rem;
+    padding: 0.4rem;
+  }
+}
+/* The final break point-655px */
+@media only screen and (max-width: 41rem) {
+  .header {
+    padding: 0 1.3rem;
+    justify-content: space-between;
+  }
+  .logo-item {
+    width: 16%;
+  }
+  .nav-list-link:link,
+  .nav-list-link:visited {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.2rem;
+  }
+  .shopping-cart {
+    font-size: 1.5rem;
+  }
+  .header-element {
+    gap: 2rem;
+  }
+  .header-icon {
+    font-size: 24px;
+  }
+
+  .main-content {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/pexels-north-1407322.jpg);
+    background-size: cover;
+
+    height: 95vh;
+  }
+  .main-heading {
+    font-size: 1.9rem;
+    padding: 12rem 9rem 2rem;
+  }
+
+  .text-content {
+    font-size: 0.6rem;
+  }
+  .query-gap {
+    gap: 2.5rem;
+  }
+  .card img {
+    width: 90%;
+  }
+
+  .card-text-content {
+    width: 90%;
+  }
+
+  .brand-name {
+    font-size: 0.9rem;
+    padding: 0.2rem;
+  }
+
+  .newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-header {
+    font-size: 1.1rem;
+  }
+  .building-details {
+    font-size: 1.1rem;
+  }
+  .footer-link {
+    font-size: 1.1rem;
+  }
+}
