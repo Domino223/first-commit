@@ -668,7 +668,7 @@
       url(../img/dumbbellsbackground.jpg);
     background-size: cover;
     background-position: top;
-    height: 22vh;
+    height: 26vh;
     display: flex;
     justify-content: space-between;
     gap: 0.7rem;
@@ -681,7 +681,7 @@
   .header-navigation-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     gap: 0.5rem;
     margin-left: 45%;

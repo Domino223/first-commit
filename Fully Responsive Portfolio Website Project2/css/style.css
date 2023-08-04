@@ -19,7 +19,7 @@ body {
 
 .grid {
   display: grid;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   gap: 0.5rem;
 }
@@ -30,6 +30,7 @@ body {
 }
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
 }
 .grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
@@ -444,13 +445,19 @@ body {
   background-color: white;
 }
 
+.img-box-wrapper {
+  width: 100%;
+  height: 100%;
+}
 .image-box {
   display: block;
   border-top: 3px solid #333;
   width: 100%;
   height: 100%;
+  justify-self: start;
+  object-fit: cover;
 }
-
+/* PLATES SECTION */
 .plates {
   padding-top: 4.2rem;
   background-color: rgba(241, 208, 22, 0.185);
@@ -461,16 +468,21 @@ body {
   width: 90%;
   min-height: 310px;
   max-height: 325px;
-  justify-content: center;
+  justify-content: start;
   border-radius: 15px;
   overflow: hidden;
   border: 1px solid #333;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.38);
 }
+.plate-img-box {
+  width: 80%;
+}
 
 .plate-image {
   display: block;
-  width: 75%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .plates-text-content {
   display: flex;
