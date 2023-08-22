@@ -14,7 +14,7 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  padding: 2rem 0;
+  padding: 4.5rem 1.5rem;
   background-color: #3c3c3c;
 }
 
@@ -192,12 +192,20 @@ body {
 .grid {
   display: grid;
 }
+@media only screen and (max-width: 37.5em) {
+  .grid {
+    display: grid;
+    justify-items: center;
+  }
+}
 
 .grid--2--columns {
   grid-template-columns: repeat(2, 1fr);
 }
 .grid--3--columns {
   grid-template-columns: repeat(3, minmax(20rem, 1fr));
+  justify-items: center;
+  justify-content: center;
 }
 .column-gap {
   column-gap: 4rem;
@@ -315,7 +323,7 @@ body {
 
 .offer {
   background-color: #efece9;
-  padding: 7rem 3.5rem;
+  padding: 7rem 3rem;
   padding-bottom: 12rem;
 }
 
@@ -337,6 +345,20 @@ body {
   font-style: italic;
 }
 
+.offer__cards-container {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .offer__cards-container {
+    justify-items: center;
+    max-width: 90%;
+  }
+  .column-gap {
+    column-gap: 2rem;
+  }
+}
+
 .offer__text-box {
   margin-left: 5rem;
 }
@@ -347,13 +369,42 @@ body {
 }
 
 .offer__card {
-  padding: 2rem 3rem;
+  padding: 2rem 1.5rem;
   background-color: #fff;
   cursor: pointer;
   border-radius: 15px;
   box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.8);
   transition: all 0.5s;
 }
+.offer__button {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .offer__card {
+    padding: 2rem 1.3rem;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0.1rem 0.1rem 2rem rgba(0, 0, 0, 0.8);
+    transition: all 0.5s;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .offer__card {
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    max-width: 90%;
+    justify-self: center;
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.8);
+    transition: all 0.5s;
+  }
+}
+
 .offer__card:hover {
   box-shadow: inset 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.8);
   background-color: #eee;
@@ -384,7 +435,7 @@ body {
 .offer__card-text-box {
   text-align: left;
   font-size: 1.1rem;
-  width: 21.7rem;
+  width: 100%;
   margin-bottom: 5rem;
 }
 .offer__card-button-box {
@@ -448,7 +499,7 @@ body {
   color: #fff;
   line-height: 1.8;
   font-size: 1rem;
-  width: 29.6rem;
+  width: 65%;
   margin-bottom: 5rem;
   margin-left: 5rem;
 }
@@ -462,6 +513,7 @@ body {
 .projects {
   background-color: #ddc4af;
   position: relative;
+  overflow: hidden;
 }
 .projects__text-box {
   padding-top: 5rem;
@@ -493,11 +545,12 @@ body {
 .projects__gallery::before {
   content: "";
   display: block;
-  height: 100.7%;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
   background-image: linear-gradient(
     to bottom,
     transparent 0%,
@@ -543,6 +596,7 @@ body {
 
 .presentation {
   padding: 5rem 13rem;
+  overflow: hidden;
 }
 .presentation__card {
   background-color: #1b5939;
@@ -550,6 +604,12 @@ body {
   padding-top: 5rem;
   display: flex;
   justify-content: space-between;
+}
+@media only screen and (max-width: 43.75em) {
+  .presentation__card {
+    padding-top: 4.7rem;
+    height: 27vh;
+  }
 }
 
 .heading--secondary--card {
@@ -567,10 +627,28 @@ body {
   margin-top: 5rem;
   margin-left: 7rem;
 }
+@media only screen and (max-width: 43.75em) {
+  .presentation__text-box {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 43.75em) {
+  .heading--secondary--card {
+    font-size: 2rem;
+  }
+}
 .presentation__button--box {
   width: 9rem;
   margin-right: 10rem;
   margin-top: 4rem;
+}
+@media only screen and (max-width: 43.75em) {
+  .presentation__button--box {
+    width: 6rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+  }
 }
 
 .heading--quinary--special {
@@ -629,6 +707,13 @@ body {
 .footer__item:not(:last-child) {
   margin-right: 4rem;
 }
+
+@media only screen and (max-width: 37.5em) {
+  .footer__item:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+}
+
 .footer__link {
   text-decoration: none;
   color: #fff;
